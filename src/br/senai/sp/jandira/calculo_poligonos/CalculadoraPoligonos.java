@@ -1,14 +1,17 @@
 package br.senai.sp.jandira.calculo_poligonos;
 
+import java.util.Scanner;
+
 import br.senai.sp.jandira.calculo_poligonos.model.Quadrado;
+import br.senai.sp.jandira.calculo_poligonos.model.Retangulo;
+import br.senai.sp.jandira.calculo_poligonos.ui.Menu;
 
 public class CalculadoraPoligonos {
 
 	public static void main(String[] args) {
 		
-		Quadrado quadrado1 = new Quadrado();
-		quadrado1.setlado(2);
-		quadrado1.exibirDados();
+		Menu.criarMenu();
+		System.out.println("Programa finalizado!");
 
 	}
 

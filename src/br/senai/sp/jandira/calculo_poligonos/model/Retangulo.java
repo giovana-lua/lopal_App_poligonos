@@ -26,9 +26,9 @@ public class Retangulo {
 		System.out.println("---------------");
 		System.out.println("DADOS DO RETÂNGULO");
 		System.out.println("------------------");
-		System.out.println("tamanho da base" + base);
-		System.out.println("------------------");
-		System.out.println("-------------------");
+		System.out.println("tamanho da base"  + base);
+		System.out.println("Área total:" + calcularArea());
+		System.out.println("Perimetro:" + calcularPerimetro());
 		System.out.println("---------------------");
 	}
 	
